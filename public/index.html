@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce Website</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>My E-commerce Store</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="categories.html">Categories</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h2>Welcome to My E-commerce Store</h2>
+                <p>Discover our latest products and deals.</p>
+                <form id="searchForm">
+                    <input type="text" id="searchQuery" placeholder="Search products">
+                    <button type="submit">Search</button>
+                </form>
+            </div>
+        </section>
+
+        <section>
+            <h2>Filter by Category</h2>
+            <select id="categoryFilter">
+                <option value="">Select a category</option>
+                <option value="1">Electronics</option>
+                <option value="2">Clothing</option>
+                <option value="3">Home Appliances</option>
+                <option value="4">Books</option>
+                <!-- More categories can be added here -->
+            </select>
+        </section>
+
+        <section>
+            <h2>Product List</h2>
+            <div id="productList">
+                <div class="product">
+                    <h3>Smartphone</h3>
+                    <p>Description: Latest model smartphone with high-resolution camera.</p>
+                    <p>Price: $699.99</p>
+                </div>
+                <div class="product">
+                    <h3>Running Shoes</h3>
+                    <p>Description: Comfortable running shoes suitable for all terrains.</p>
+                    <p>Price: $89.99</p>
+                </div>
+                <div class="product">
+                    <h3>Blender</h3>
+                    <p>Description: Powerful blender for smoothies and soups.</p>
+                    <p>Price: $59.99</p>
+                </div>
+                <div class="product">
+                    <h3>Novel: The Great Adventure</h3>
+                    <p>Description: A thrilling novel with an engaging plot.</p>
+                    <p>Price: $14.99</p>
+                </div>
+                <!-- More products can be added here -->
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 My E-commerce Store. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/scripts.js"></script>
+</body>
+</html>

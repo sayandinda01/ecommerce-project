@@ -1,0 +1,30 @@
+{
+  "name": "ecommerce-project",
+  "version": "1.0.0",
+  "description": "An eCommerce project with Express, MySQL, and a simple frontend.",
+  "main": "src/app.js",
+  "scripts": {
+    "test": "mocha",
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js"
+  },
+  "author": "Your Name",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "morgan": "^1.10.0",
+    "mysql": "^2.18.1",
+    "mysql2": "^3.11.0",
+    "pg": "^8.12.0"
+  },
+  "devDependencies": {
+    "chai": "^4.3.7",
+    "mocha": "^10.2.0",
+    "nodemon": "^3.0.1"
+  },
+  "keywords": []
+}

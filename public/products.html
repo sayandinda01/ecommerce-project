@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products - E-commerce Website</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>My E-commerce Store</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="categories.html">Categories</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="search-section">
+            <div class="container">
+                <h2>Search Products</h2>
+                <form id="searchForm">
+                    <input type="text" id="searchQuery" placeholder="Search products" aria-label="Search products">
+                    <button type="submit">Search</button>
+                </form>
+            </div>
+        </section>
+
+        <section class="filter-section">
+            <div class="container">
+                <h2>Filter by Category</h2>
+                <select id="categoryFilter">
+                    <option value="">Select a category</option>
+                    <!-- Categories will be populated here -->
+                </select>
+            </div>
+        </section>
+
+        <section class="product-list-section">
+            <div class="container">
+                <h2>Product List</h2>
+                <div id="productList">
+                    <!-- Product items will be displayed here -->
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 My E-commerce Store. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/scripts.js"></script>
+</body>
+</html>
