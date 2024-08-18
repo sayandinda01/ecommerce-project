@@ -1,0 +1,127 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f4f4f4; /* Light background color for the page */
+}
+
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #2874f0; /* Blue color similar to Flipkart */
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+.hero {
+    background: url('../images/hero-banner.jpg') no-repeat center center/cover;
+    color: white;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.hero-content {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.hero h2 {
+    font-size: 2.5rem; /* Larger font size for heading */
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.2rem; /* Slightly larger font size for paragraph */
+    margin-bottom: 30px;
+}
+
+form#searchForm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form#searchForm input {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-right: 10px;
+    width: 300px; /* Adjust width as needed */
+}
+
+form#searchForm button {
+    background-color: #ff9900; /* Bright orange color */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+form#searchForm button:hover {
+    background-color: #e68a00; /* Darker orange on hover */
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    background-color: #fff; /* Background color for sections */
+    border-radius: 5px; /* Rounded corners for sections */
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+    margin-bottom: 20px;
+}
+
+.product {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 10px;
+    background-color: #fff; /* Background color for product cards */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+}
+
+.product h3 {
+    margin-top: 0;
+    font-size: 1.5rem; /* Larger font size for product titles */
+}
+
+footer {
+    background-color: #2874f0; /* Blue color similar to header */
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
